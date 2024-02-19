@@ -134,19 +134,6 @@ if st.session_state['generated']:
         message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
 
 
-# In[ ]:
-
-
-https://medium.com/prompt-engineering/how-to-create-a-powerful-chatbot-in-minutes-with-streamlit-and-openai-gpt-3-5-7954e8e05db0
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
