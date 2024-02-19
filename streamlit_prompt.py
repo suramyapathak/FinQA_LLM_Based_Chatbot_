@@ -13,7 +13,7 @@ from streamlit_chat import message
 # In[2]:
 
 
-secrets = toml.load("secrets.toml")
+# secrets = toml.load("secrets.toml")
 
 
 # In[3]:
