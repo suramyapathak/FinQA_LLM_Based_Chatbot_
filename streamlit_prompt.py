@@ -20,7 +20,7 @@ from streamlit_chat import message
 
 
 api_key=st.secrets["key"]
-
+model='gpt-3.5-turbo'
 
 # In[10]:
 
