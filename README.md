@@ -38,6 +38,8 @@ Financial data is in table and text form. The data is in json format. The provid
 
 Link to dataset: https://paperswithcode.com/dataset/finqa
 
+Medium article link: https://medium.com/@suramya.pathak/financial-quantitative-analysis-using-a-chat-bot-74bc987079c3
+
 ## Contributors
 
     Suramya Pathak
