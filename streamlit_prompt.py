@@ -13,14 +13,14 @@ from streamlit_chat import message
 # In[2]:
 
 
-secrets = toml.load("secrets.toml")
+# secrets = toml.load("secrets.toml")
 
 
 # In[3]:
 
 
 api_key=st.secrets["key"]
-
+model='gpt-3.5-turbo'
 
 # In[10]:
 
@@ -114,7 +114,7 @@ if 'generated' not in st.session_state:
 if 'past' not in st.session_state:
     st.session_state['past'] = []
     
-query = st.text_input("Question: ", "Say Hello ", key="input")
+query = st.text_input("Question: ", "Hello", key="input")
 
 if 'messages' not in st.session_state:
     st.session_state['messages'] = get_initial_message()
