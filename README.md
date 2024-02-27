@@ -1,7 +1,7 @@
 # FinQA_LLM_Based_Chatbot_
  
 
-## Generative Question Answering Chat Bot
+## Financial Quantitative Analysis with Generative Question Answering Chat Bot
 
 This project is a generative question answering chat bot that leverages prompt engineering techniques to provide answers based on quantitative financial data. The chat bot is designed to answer questions related to financial data presented in both text and table formats. It aims to demonstrate the capabilities of generative models in providing informative responses to queries about financial data. The project is built using Streamlit, a popular Python library for creating web applications with simple and intuitive interfaces.
 Overview
@@ -34,7 +34,9 @@ bash
 
 ## Data
 
-The provided data consists of a single paragraph containing quantitative financial information. This data has been preprocessed and formatted for compatibility with the generative question answering model.
+Financial data is in table and text form. The data is in json format. The provided data consists of different paragraphs containing quantitative financial information. This data has been preprocessed and formatted for compatibility with the generative question answering model.
+
+Link to dataset: https://paperswithcode.com/dataset/finqa
 
 ## Contributors
 
