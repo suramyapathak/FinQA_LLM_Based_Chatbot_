@@ -4,7 +4,6 @@
 
 import openai
 import streamlit as st
-import toml
 from streamlit_chat import message
 
 api_key=st.secrets["key"]
