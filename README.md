@@ -34,7 +34,9 @@ bash
 
 ## Data
 
-The provided data consists of a single paragraph containing quantitative financial information. This data has been preprocessed and formatted for compatibility with the generative question answering model.
+Financial data is in table and text form. The data is in json format. The provided data consists of different paragraphs containing quantitative financial information. This data has been preprocessed and formatted for compatibility with the generative question answering model.
+
+Link to dataset: https://paperswithcode.com/dataset/finqa
 
 ## Contributors
 
