@@ -1,29 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import openai
 import streamlit as st
 import toml
 from streamlit_chat import message
 
-
-# In[2]:
-
-
-# secrets = toml.load("secrets.toml")
-
-
-# In[3]:
-
-
 api_key=st.secrets["key"]
 model='gpt-3.5-turbo'
-
-# In[10]:
-
 
 client = openai.OpenAI(
     api_key=api_key,
@@ -35,15 +20,6 @@ def get_completion_from_messages(prompt, model='gpt-3.5-turbo'):
     messages=message,
     temperature=0)
     return response.choices[0].message.content
-
-
-# In[ ]:
-
-
-
-
-
-# In[11]:
 
 
 def get_initial_message():
@@ -90,17 +66,9 @@ you are a chatbot, ask user for the question. go through the given the informati
 } ]
     return messages
 
-
-# In[12]:
-
-
 def update_chat(messages, role, content):
     messages.append({"role": role, "content": content})
     return messages
-
-
-# In[15]:
-
 
 st.set_page_config(page_title="FinQA Chatbot using Prompt Engineering (GPT-3.5)")
 st.title("FinQA Chatbot using Prompt Engineering (GPT-3.5)")
